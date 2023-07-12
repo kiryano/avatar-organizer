@@ -9,6 +9,10 @@ This was created out of boredom to automate the organization of avatar files and
 - Error handling for cases such as existing "avatars" folder and no avatar files found
 - Very easy to setup and use
 - Checks to verify the validity of the avatar files before moving them
+- Automatic backup or copy of each file in a separate directory before moving them
+- Better organization by (e.g., sorting by date, size, etc.)
+- Recursive method to search for avatar files in subdirectories
+- Very interactive & user friendly by having user prompts & command-line arguments.
 
 ## TODOs
 - [x] Implement a check to verify the validity of the avatar files before moving them
