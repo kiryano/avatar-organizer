@@ -11,11 +11,11 @@ This was created out of boredom to automate the organization of avatar files and
 - Checks to verify the validity of the avatar files before moving them
 
 ## TODOs
-- ✅ Implement a check to verify the validity of the avatar files before moving them.
-- ❌ Implement creating a backup or copy of each file in a separate directory before moving them.
-- ❌ Implement a better way to organize files (e.g., sorting by date, size, etc.).
-- ❌ Implement a recursive method to search for avatar files in subdirectories.
-- ❌ Make the script more interactive, with user prompts or command-line arguments.
+- [x] Implement a check to verify the validity of the avatar files before moving them
+- [ ] Implement creating a backup or copy of each file in a separate directory before moving them.
+- [ ] Implement a better way to organize files (e.g., sorting by date, size, etc.).
+- [ ] Implement a recursive method to search for avatar files in subdirectories.
+- [ ] Make the script more interactive, with user prompts or command-line arguments.
 
 ## Usage
 1. Clone the repository: `git clone https://github.com/kiryano/avatar-organizer.git`
