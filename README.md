@@ -21,7 +21,7 @@ This was created out of boredom to automate the organization of avatar files and
 - [x] Implement a recursive method to search for avatar files in subdirectories.
 - [x] Make the script more interactive, with user prompts or command-line arguments.
 - [x] Enhance Error Handling
-- [ ] Implement a check to identify and handle duplicate files.
+- [x] Implement a check to identify and handle duplicate files.
 - [ ] Implement where users can specify specific files or directories to exclude from the organizing process
 - [ ] Add more user interaction?
 - [ ] Implement additional sorting options
