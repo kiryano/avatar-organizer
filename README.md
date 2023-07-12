@@ -46,6 +46,8 @@ This was created out of boredom to automate the organization of avatar files and
   - random
   - string
   - colorama
+  - logging
+  - pillow
 
 ## Disclaimer
 This script was created for educational and recreational purposes. Please use it responsibly and ensure that you have appropriate permissions to modify and organize the files in your directory, also make sure to backup any files beforehand :3
