@@ -18,7 +18,7 @@ This was created out of boredom to automate the organization of avatar files and
 - ❌ Make the script more interactive, with user prompts or command-line arguments.
 
 ## Usage
-1. Clone the repository `git clone https://github.com/kiryano/avatar-organizer.git`
+1. Clone the repository: `git clone https://github.com/kiryano/avatar-organizer.git`
 2. Place the script file in the directory containing the avatar files you want to organize.
 3. Open up a terminal and navigate to the directory where the script is located.
 4. Run the script using the following command: `python avatar_organizer.py`
