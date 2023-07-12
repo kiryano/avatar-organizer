@@ -1,7 +1,7 @@
 # Avatar Organizer
 
 ## Introduction
-This was created out of boredom to automate the organization of avatar files 🐈
+This was created out of boredom to automate the organization of avatar files and organize them properly, since I have issues doing that.... 🐈
 
 ## Features
 - Moves avatar files containing the extensions of (e.g., JPG, JPEG, PNG, GIF) into a folder named "avatars"
