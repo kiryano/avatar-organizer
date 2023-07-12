@@ -29,7 +29,7 @@ This was created out of boredom to automate the organization of avatar files and
 - [ ] Add checks to see if the required modules are installed, if not, install them
 
 ## Usage
-1. Clone the repository or head over to the [https://github.com/kiryano/avatar-organizer/releases/tag/v1.0.0]releases: `git clone https://github.com/kiryano/avatar-organizer.git`
+1. Clone the repository or head over to the [releases](https://github.com/kiryano/avatar-organizer/releases/tag/v1.0.0): `git clone https://github.com/kiryano/avatar-organizer.git`
 2. Place the script file in the directory containing the avatar files you want to organize.
 3. Open up a terminal and navigate to the directory where the script is located.
 4. Run the script using the following command: `python avatar_organizer.py`
