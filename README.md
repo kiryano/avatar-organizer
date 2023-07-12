@@ -13,7 +13,6 @@ This was created out of boredom to automate the organization of avatar files and
 - Better organization by (e.g., sorting by date, size, etc.)
 - Recursive method to search for avatar files in subdirectories
 - Very interactive & user friendly by having user prompts & command-line arguments.
-- Checks to see if the required modules are installed, if not, install them
 
 ## TODOs
 - [x] Implement a check to verify the validity of the avatar files before moving them
@@ -27,6 +26,7 @@ This was created out of boredom to automate the organization of avatar files and
 - [ ] Add more user interaction?
 - [ ] Implement additional sorting options
 - [ ] Enhance the backup functionality
+- [ ] Add checks to see if the required modules are installed, if not, install them
 
 ## Usage
 1. Clone the repository: `git clone https://github.com/kiryano/avatar-organizer.git`
