@@ -46,7 +46,6 @@ This was created out of boredom to automate the organization of avatar files and
 - Required Python Modules:
   - os
   - shutil
-  - glob
   - random
   - string
   - colorama
