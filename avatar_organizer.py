@@ -7,6 +7,7 @@ from colorama import Fore, Style
 import logging
 import pyfiglet
 import argparse
+import hashlib
 
 logging.basicConfig(
     level=logging.DEBUG,
