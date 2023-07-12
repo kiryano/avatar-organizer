@@ -18,11 +18,12 @@ This was created out of boredom to automate the organization of avatar files and
 - ❌ Make the script more interactive, with user prompts or command-line arguments.
 
 ## Usage
-1. Place the script file in the directory containing the avatar files you want to organize.
-2. Open up a terminal and navigate to the directory where the script is located.
-3. Run the script using the following command: `python avatar_organizer.py`
-4. The script will create a folder named "avatars" (if it doesn't already exist lol) and move the photo files into it with a random generated string for the filenames.
-5. Check the "avatars" folder to find your avatar files.
+1. Clone the repository `git clone https://github.com/kiryano/avatar-organizer.git`
+2. Place the script file in the directory containing the avatar files you want to organize.
+3. Open up a terminal and navigate to the directory where the script is located.
+4. Run the script using the following command: `python avatar_organizer.py`
+5. The script will create a folder named "avatars" (if it doesn't already exist lol) and move the photo files into it with a random generated string for the filenames.
+6. Check the "avatars" folder to find your avatar files.
 
 ## Customization
 - Supported file extensions: By default, the script supports the following extensions: JPG, JPEG, PNG, and GIF. You can customize the list of supported extensions by modifying the `avatar_extensions` variable in the script.
