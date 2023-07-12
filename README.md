@@ -9,7 +9,7 @@ This was created out of boredom to automate the organization of avatar files üê
 - Error handling for cases such as existing "avatars" folder and no avatar files found
 - Very easy to setup and use
 
-## TODO
+## ToDo
 - Implement logging for debugging & auditing purposes
 - Implement a check to verify the validity of the avatar files before moving them
 - Implement before moving the files, create a backup or copy of each file in a separate director
