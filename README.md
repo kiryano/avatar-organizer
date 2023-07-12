@@ -10,20 +10,11 @@ This was created out of boredom to automate the organization of avatar files and
 - Very easy to setup and use
 
 ## TODOs
-- Implement logging for debugging and to track the files & log errors.
-- Implement a check to verify the validity of the avatar files before moving them.
-- Implement creating a backup or copy of each file in a separate directory before moving them.
-- Implement a better way to organize files (e.g., sorting by date, size, etc.).
-- Implement a recursive method to search for avatar files in subdirectories.
-- Make the script more interactive, with user prompts or command-line arguments.
-
-## Completed TODOs
--
--
--
--
--
--
+- ✔️ Implement a check to verify the validity of the avatar files before moving them.
+- ❌ Implement creating a backup or copy of each file in a separate directory before moving them.
+- ❌ Implement a better way to organize files (e.g., sorting by date, size, etc.).
+- ❌ Implement a recursive method to search for avatar files in subdirectories.
+- ❌ Make the script more interactive, with user prompts or command-line arguments.
 
 ## Usage
 1. Place the script file in the directory containing the avatar files you want to organize.
