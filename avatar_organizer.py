@@ -65,6 +65,14 @@ def search_avatars(directory):
                 avatars.append(os.path.join(root, file))
     return avatars
 
+# Calculate file hash
+def calculate_file_hash(file_path):
+    hasher = hashlib.md5()
+    with open(file_path, 'rb') as file:
+        for chunk in iter(lambda: file.read(4096), b''):
+            hasher.update(chunk)
+    return hasher.hexdigest()
+
 
 # Find all avatars in the current directory and subdirectories
 avatars = search_avatars('.')
@@ -79,11 +87,20 @@ if len(avatars) == 0:
 sorted_files = sorted(avatars, key=os.path.getmtime)
 
 # Move each valid photo file to the target folder with a random filename
+encountered_hashes = set()
 for file in sorted_files:
     try:
         # This will validate the image
         with Image.open(file) as img:
             img.verify()
+
+        # Check for duplicate file
+        file_hash = calculate_file_hash(file)
+        if file_hash in encountered_hashes:
+            logging.warning(f'Duplicate file found: {file}')
+            print(f'Warning: Duplicate file found: {file}')
+            continue
+        encountered_hashes.add(file_hash)
 
         # Create a backup of the file in the backup directory
         try:
