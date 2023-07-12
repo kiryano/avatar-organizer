@@ -8,6 +8,7 @@ This was created out of boredom to automate the organization of avatar files and
 - Generates a random string for the filenames
 - Error handling for cases such as existing "avatars" folder and no avatar files found
 - Very easy to setup and use
+- Checks to verify the validity of the avatar files before moving them
 
 ## TODOs
 - ✅ Implement a check to verify the validity of the avatar files before moving them.
