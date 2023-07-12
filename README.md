@@ -27,6 +27,7 @@ This was created out of boredom to automate the organization of avatar files and
 - [ ] Implement additional sorting options
 - [ ] Enhance the backup functionality
 - [ ] Add checks to see if the required modules are installed, if not, install them
+- [ ] Add a check if duplicates are found then delete an existing duplicate file.
 
 ## Usage
 1. Clone the repository or head over to the [releases](https://github.com/kiryano/avatar-organizer/releases/tag/v1.0.0): `git clone https://github.com/kiryano/avatar-organizer.git`
