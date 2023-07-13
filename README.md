@@ -13,7 +13,7 @@ This was created out of boredom to automate the organization of avatar files and
 - Random filename generation: Each photo file is moved to the target folder with a random filename to ensure uniqueness.
 - Logging: The script logs the operations and outputs the results for easy tracking and debugging.
 
-### Arguments
+## Arguments
 
 - `-t`, `--target`: Specify the target folder name (default: avatars).
 - `-c`, `--confirm`: Prompt for confirmation before moving files.
