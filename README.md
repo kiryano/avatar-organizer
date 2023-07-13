@@ -4,15 +4,19 @@
 This was created out of boredom to automate the organization of avatar files and organize them properly, since I have issues doing that.... 🐈
 
 ## Features
-- Moves avatar files containing the extensions of (e.g., JPG, JPEG, PNG, GIF) into a folder named "avatars"
-- Generates a random string for the filenames
-- Error handling for cases such as existing "avatars" folder and no avatar files found
-- Very easy to setup and use
-- Checks to verify the validity of the avatar files before moving them
-- Automatic backup or copy of each file in a separate directory before moving them
-- Better organization by (e.g., sorting by date, size, etc.)
-- Recursive method to search for avatar files in subdirectories
-- Very interactive & user friendly by having user prompts & command-line arguments.
+
+- Recursive search: The script searches for avatars in the current directory and subdirectories, ensuring all avatars are organized.
+- Image verification: Each image is verified using OpenCV to ensure it is a valid image file.
+- Fast preliminary duplicate detection: The script calculates the hash value for each image file and compares it with the encountered file hashes. Potential duplicate images with the same file hash are removed.
+- Detailed duplicate comparison: For potential duplicates (those with unique file hashes), the script performs a more detailed comparison using OpenCV's `cv2.subtract()` function to confirm if they are true duplicates based on image content.
+- Backup creation: A backup of each photo file is created in the `backup` directory to ensure data preservation.
+- Random filename generation: Each photo file is moved to the target folder with a random filename to ensure uniqueness.
+- Logging: The script logs the operations and outputs the results for easy tracking and debugging.
+
+### Arguments
+
+- `-t`, `--target`: Specify the target folder name (default: avatars).
+- `-c`, `--confirm`: Prompt for confirmation before moving files.
 
 ## TODOs
 - [x] Implement a check to verify the validity of the avatar files before moving them
