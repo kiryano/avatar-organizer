@@ -18,21 +18,6 @@ This was created out of boredom to automate the organization of avatar files and
 - `-t`, `--target`: Specify the target folder name (default: avatars).
 - `-c`, `--confirm`: Prompt for confirmation before moving files.
 
-## TODOs
-- [x] Implement a check to verify the validity of the avatar files before moving them
-- [x] Implement creating a backup or copy of each file in a separate directory before moving them.
-- [x] Implement a better way to organize files (e.g., sorting by date, size, etc.).
-- [x] Implement a recursive method to search for avatar files in subdirectories.
-- [x] Make the script more interactive, with user prompts or command-line arguments.
-- [x] Enhance Error Handling
-- [x] Implement a check to identify and handle duplicate files.
-- [ ] Implement where users can specify specific files or directories to exclude from the organizing process
-- [ ] Add more user interaction?
-- [ ] Implement additional sorting options
-- [ ] Enhance the backup functionality
-- [ ] Add checks to see if the required modules are installed, if not, install them
-- [ ] Add a check if duplicates are found then delete one of them
-
 ## Usage
 1. Clone the repository or head over to the [releases](https://github.com/kiryano/avatar-organizer/releases/tag/v1.0.0): `git clone https://github.com/kiryano/avatar-organizer.git`
 2. Place the script file in the directory containing the avatar files you want to organize.
