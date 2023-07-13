@@ -49,16 +49,16 @@ This was created out of boredom to automate the organization of avatar files and
 ## Requirements
 - Python 3.x
 - Required Python Modules:
-  - os: Provides a way to interact with the operating system, such as creating directories and moving files.
-  - shutil: Offers high-level file operations, such as copying and moving files.
-  - random: Enables generating random names for files.
-  - string: Provides a set of useful string constants and operations.
-  - cv2 (OpenCV): Allows image processing tasks, such as reading and comparing images.
-  - colorama: Enables colored output in the console.
-  - logging: Facilitates logging messages to a file.
-  - pyfiglet: Allows generating ASCII art text.
-  - argparse: Provides command-line argument parsing functionality.
-  - hashlib: Offers hashing algorithms for generating file hashes.
+  - **os**: Provides a way to interact with the operating system, such as creating directories and moving files.
+  - **shutil**: Offers high-level file operations, such as copying and moving files.
+  - **random**: Enables generating random names for files.
+  - **string**: Provides a set of useful string constants and operations.
+  - **cv2 (OpenCV)**: Allows image processing tasks, such as reading and comparing images.
+  - **colorama**: Enables colored output in the console.
+  - **logging**: Facilitates logging messages to a file.
+  - **pyfiglet**: Allows generating ASCII art text.
+  - **argparse**: Provides command-line argument parsing functionality.
+  - **hashlib**: Offers hashing algorithms for generating file hashes.
 
 ## Disclaimer
 This script was created for educational and recreational purposes. Please use it responsibly and ensure that you have appropriate permissions to modify and organize the files in your directory, also make sure to backup any files beforehand :3
