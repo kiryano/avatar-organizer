@@ -1,6 +1,4 @@
-# Avatar Organizer
-
-## Introduction
+# Introduction
 This was created out of boredom to automate the organization of avatar files and organize them properly, since I have issues doing that.... [changelog](https://github.com/kiryano/avatar-organizer/blob/main/changelog.md)🐈
 
 ## Features
