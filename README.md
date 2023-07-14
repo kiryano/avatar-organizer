@@ -45,9 +45,6 @@ This was created out of boredom to automate the organization of avatar files and
   - **argparse**: Provides command-line argument parsing functionality.
   - **hashlib**: Offers hashing algorithms for generating file hashes.
 
-## Disclaimer
-This script was created for educational and recreational purposes. Please use it responsibly and ensure that you have appropriate permissions to modify and organize the files in your directory, also make sure to backup any files beforehand :3
-
 ## Feedback and Contributions
 If you have any suggestions, feedback, or improvements for this script, feel free to submit a pull request on the GitHub repository.
 
