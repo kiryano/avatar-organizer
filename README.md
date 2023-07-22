@@ -1,6 +1,14 @@
 # Introduction
 This was created out of boredom to automate the organization of avatar files and organize them properly, since I have issues doing that.... [changelog](https://github.com/kiryano/avatar-organizer/blob/main/changelog.md)🐈
 
+## TODOs
+- Implement Interactive Mode
+- Logging Improvements
+- Implement more safety measures
+- Duplicate Detection Improvements
+- Undo Functionality
+- Configuration File
+
 ## Features
 
 - Recursive search: The script searches for avatars in the current directory and subdirectories, ensuring all avatars are organized.
