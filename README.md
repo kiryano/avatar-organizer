@@ -8,6 +8,8 @@ This was created out of boredom to automate the organization of avatar files and
 - Duplicate Detection Improvements
 - Undo Functionality
 - Configuration File
+- Multi-Threaded Processing
+- Image Deduplication
 
 ## Features
 
